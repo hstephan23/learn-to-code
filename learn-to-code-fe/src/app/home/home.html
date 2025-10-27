@@ -1,0 +1,54 @@
+<div class="home-container">
+  <app-menu-bar/>
+  <section class="title">
+    <img alt="laptop with gears and code" class="main-image" height="1024" ngSrc="assets/Coding-Logo.png" width="1024">
+    <section class="title-text fade-in">
+      <h3>Hands-on lessons with instant feedback. Learn Java, Typescript, C#, and frameworks step by step</h3>
+      <section class="buttons-box">
+        <app-button (buttonClick)="navigateToPage('lessons')"
+                    buttonSize="lg"
+                    buttonText="Start a free lesson"
+        />
+        <app-button (buttonClick)="navigateToPage('signup')"
+                    buttonSize="lg"
+                    buttonText="Create account"
+                    buttonType="secondary"
+        />
+      </section>
+      <p>No credit card required - Beginner friendly</p>
+    </section>
+  </section>
+  <br>
+  <h2 class="languages-heading">Language and Frameworks Taught</h2>
+  <app-languages-bar/>
+  <br>
+  <section class="cards-box fade-in">
+    <app-card cardColor="primary"
+              cardImage="assets/learnByDoing.png"
+              cardImageAlt="Individual with a laptop and coding symbols around them"
+              cardImageHeight="200"
+              cardImageWidth="200"
+              cardSubtitle="Short lessons with instant feedback. No fluff - just code."
+              cardTitle="Learn by Doing"
+    />
+    <app-card cardColor="tertiary"
+              cardImage="assets/modernStacks.png"
+              cardImageAlt="Laptop with modern stack symbols"
+              cardImageHeight="200"
+              cardImageWidth="200"
+              cardSubtitle="Java, Typescript, C#, and framework such as Angular, React, Spring Boot, and .Net."
+              cardTitle="Modern Stacks"
+    />
+    <app-card cardColor="primary"
+              cardImage="assets/guidedProjects.png"
+              cardImageAlt="Two people working together on code"
+              cardImageHeight="200"
+              cardImageWidth="200"
+              cardSubtitle="Learn by building projects. Get instant feedback on your progress."
+              cardTitle="Guided Projects"
+    />
+  </section>
+  <!--  <section class="fade-in">-->
+  <!--    <app-coding-terminal/>-->
+  <!--  </section>-->
+</div>

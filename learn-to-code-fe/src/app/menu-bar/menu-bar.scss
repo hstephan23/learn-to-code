@@ -1,0 +1,38 @@
+.menu-bar {
+  color: #202A44;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 1100px;
+  background-color: #9C8FCF;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: black 0 0 10px;
+
+  .menu-bar-title {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .menu-list {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 0 0 3rem;
+    margin: 0;
+
+    li {
+      padding-left: 0.5rem;
+
+      &:hover {
+        transform: scale(1.2);
+        color: #FFFFFF;
+      }
+    }
+
+  }
+}

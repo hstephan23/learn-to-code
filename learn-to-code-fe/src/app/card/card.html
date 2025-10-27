@@ -1,0 +1,18 @@
+<div [ngClass]="[cardSize, 'card', cardColor]">
+  <section>
+    <img
+      [alt]="cardImageAlt || ''"
+      [height]="cardImageHeight || 0"
+      [ngSrc]="cardImage"
+      [width]="cardImageWidth || 0"
+      decoding="async"
+      loading="lazy"
+    />
+  </section>
+  <section>
+    <h3>{{ cardTitle }}</h3>
+  </section>
+  <section>
+    <p class="card-subtitle">{{ cardSubtitle }}</p>
+  </section>
+</div>

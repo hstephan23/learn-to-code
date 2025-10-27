@@ -1,0 +1,100 @@
+button.primary {
+  background-color: #2F3C68;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #202A44;
+  }
+}
+
+button.secondary {
+  background-color: #9C8FCF;
+  color: #202A44;
+
+  &:hover {
+    background-color: #7C70C3;
+  }
+}
+
+button.tertiary {
+  background-color: #E06673;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #C05663;
+  }
+}
+
+button.danger {
+  background-color: #E06673;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #C05663;
+  }
+}
+
+button.success {
+  background-color: #3FA5C3;
+  color: #202A44;
+
+  &:hover {
+    background-color: #2F95B3;
+  }
+}
+
+button.warning {
+  background-color: #F37C59;
+  color: #202A44;
+
+  &:hover {
+    background-color: #F26C49;
+  }
+}
+
+button.info {
+  background-color: #9C8FCF;
+  color: #202A44;
+
+  &:hover {
+    background-color: #7C70C3;
+  }
+}
+
+button.light {
+  background-color: #FFFFFF;
+  color: #202A44;
+
+  &:hover {
+    background-color: #F0F0F0;
+  }
+}
+
+button.dark {
+  background-color: #202A44;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #101828;
+  }
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+
+}
